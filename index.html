@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Forca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>JOGO DA FORCA</h1>
+    <p id="wordLength" class="word-length">A palavra tem _ letras.</p>
+    <div id="wordContainer" class="word-container">
+      <!-- Letras serão exibidas dinamicamente -->
+    </div>
+    <div class="input-container">
+      <label for="letterInput">Digite uma letra:</label>
+      <input type="text" id="letterInput" maxlength="1" placeholder="Ex: A">
+      <button id="guessButton">Adivinhar</button>
+    </div>
+    <div class="attempts-container">
+      <p>Tentativas restantes: <span id="attemptsLeft">6</span></p>
+      <p>Letras erradas: <span id="wrongLetters"></span></p>
+    </div>
+    <button id="restartButton" class="hidden">Reiniciar</button>
+    <p id="message" class="message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
