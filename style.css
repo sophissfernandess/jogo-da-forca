@@ -1,0 +1,107 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px 40px;
+    text-align: center;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    width: 400px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .word-length {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .word-container {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+    letter-spacing: 10px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-container input[type="text"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: #28a745;
+    color: #fff;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #218838;
+  }
+  
+  #restartButton {
+    background: #007bff;
+    margin-top: 15px;
+  }
+  
+  #restartButton:hover {
+    background: #0056b3;
+  }
+  
+  .attempts-container {
+    margin-top: 15px;
+  }
+  
+  .attempts-container p {
+    margin: 5px 0;
+  }
+  
+  #wrongLetters {
+    font-weight: bold;
+    color: #ff4d4d;
+  }
+  
+  .message {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
