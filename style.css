@@ -7,7 +7,7 @@
   
   body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(135deg, #b20808, #df3f17);
     color: #fff;
     display: flex;
     justify-content: center;
@@ -68,17 +68,17 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    background: #28a745;
+    background: #2707a8;
     color: #fff;
     transition: background 0.3s ease;
   }
   
   button:hover {
-    background: #218838;
+    background: #300bc6;
   }
   
   #restartButton {
-    background: #007bff;
+    background: #2707a8;
     margin-top: 15px;
   }
   
